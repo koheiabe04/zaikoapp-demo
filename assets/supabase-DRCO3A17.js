@@ -1,0 +1,1 @@
+import{d as e}from"./router-DA6dw3gw.js";var t;{let{mockSupabase:n}=await e(async()=>{let{mockSupabase:e}=await import(`./mockSupabase-CXnKFbJA.js`);return{mockSupabase:e}},[]);t=n}var n=t;export{n as t};

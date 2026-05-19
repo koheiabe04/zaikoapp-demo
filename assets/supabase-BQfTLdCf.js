@@ -1,0 +1,1 @@
+import{t as e}from"./supabase-DRCO3A17.js";export{e as supabase};

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192" width="192" height="192">
+  <rect width="192" height="192" rx="32" fill="#2563EB"/>
+  <!-- Box body -->
+  <path d="M48 82 L96 58 L144 82 L144 134 L96 158 L48 134 Z" fill="white" opacity="0.95"/>
+  <!-- Box lid top -->
+  <path d="M48 82 L96 58 L144 82 L96 106 Z" fill="white"/>
+  <!-- Box front face -->
+  <path d="M48 82 L96 106 L96 158 L48 134 Z" fill="#E0E7FF"/>
+  <!-- Box right face -->
+  <path d="M144 82 L96 106 L96 158 L144 134 Z" fill="#BFDBFE"/>
+  <!-- Box lid line -->
+  <path d="M48 82 L96 106 L144 82" fill="none" stroke="#2563EB" stroke-width="2" stroke-opacity="0.3"/>
+  <!-- Center line on lid -->
+  <line x1="96" y1="58" x2="96" y2="106" stroke="#2563EB" stroke-width="1.5" stroke-opacity="0.2"/>
+  <!-- Tape on box -->
+  <rect x="88" y="106" width="16" height="28" rx="2" fill="#2563EB" opacity="0.15"/>
+</svg>

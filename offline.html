@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#2563EB" />
+  <title>オフライン - 在庫管理アプリ</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet" />
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Noto Sans JP', sans-serif;
+      background-color: #F8FAFC;
+      color: #1E293B;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      text-align: center;
+      padding: 24px;
+    }
+    .container {
+      max-width: 400px;
+    }
+    .icon {
+      font-size: 80px;
+      line-height: 1;
+      margin-bottom: 16px;
+    }
+    h1 {
+      font-size: 22px;
+      font-weight: 700;
+      margin-bottom: 16px;
+    }
+    p {
+      font-size: 15px;
+      color: #64748B;
+      line-height: 1.7;
+      margin-bottom: 32px;
+    }
+    .btn {
+      display: inline-block;
+      background-color: #2563EB;
+      color: #fff;
+      font-family: 'Noto Sans JP', sans-serif;
+      font-size: 15px;
+      font-weight: 700;
+      padding: 12px 32px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background-color 0.2s;
+    }
+    .btn:hover {
+      background-color: #1D4ED8;
+    }
+    .btn:active {
+      background-color: #1E40AF;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="icon">📦</div>
+    <h1>在庫管理アプリ</h1>
+    <p>
+      インターネットに接続されていません。<br />
+      接続を確認してから再度お試しください。
+    </p>
+    <button class="btn" onclick="location.reload()">再読み込み</button>
+  </div>
+</body>
+</html>
